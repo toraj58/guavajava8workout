@@ -1,8 +1,12 @@
 package com.touraj.guavajava8;
 
+import com.touraj.guavajava8.model.Person;
+
 import java.util.Objects;
+import java.util.function.Consumer;
 import java.util.function.Function;
 import java.util.function.Predicate;
+import java.util.function.Supplier;
 
 public class Main {
 
@@ -48,6 +52,22 @@ public class Main {
         System.out.println(i);
 
         backToString.apply("123");     // "123"
+
+//        Suppliers#
+
+//        Suppliers produce a result of a given generic type.
+//        Unlike Functions, Suppliers don't accept arguments.
+
+        Supplier<Person> personSupplier = Person::new;
+        personSupplier.get();   // new Person
+
+//        Consumers#
+
+//        Consumers represents operations to be performed on a single input argument.
+
+                Consumer<Person> greeter = (p) -> System.out.println("Hello, " + p.getName());
+        greeter.accept(new Person("Luke", "Skywalker"));
+
 
     }
 
