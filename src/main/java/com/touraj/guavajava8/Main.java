@@ -2,6 +2,7 @@ package com.touraj.guavajava8;
 
 import com.touraj.guavajava8.model.Person;
 
+import java.util.Comparator;
 import java.util.Objects;
 import java.util.function.Consumer;
 import java.util.function.Function;
@@ -67,6 +68,20 @@ public class Main {
 
                 Consumer<Person> greeter = (p) -> System.out.println("Hello, " + p.getName());
         greeter.accept(new Person("Luke", "Skywalker"));
+
+
+//        Comparators#
+
+//        Comparators are well known from older versions of Java. Java 8 adds various default methods to the interface.
+
+        Comparator<Person> comparator = (p1, p2) -> p1.getName().compareTo(p2.getName());
+
+        Person p1 = new Person("John", "Doe");
+        Person p2 = new Person("Alice", "Wonderland");
+
+        comparator.compare(p1, p2);             // > 0
+        comparator.reversed().compare(p1, p2);  // < 0
+
 
 
     }
