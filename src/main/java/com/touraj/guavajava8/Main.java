@@ -2,7 +2,9 @@ package com.touraj.guavajava8;
 
 import com.touraj.guavajava8.model.Person;
 
+import java.util.Arrays;
 import java.util.Comparator;
+import java.util.List;
 import java.util.Objects;
 import java.util.function.Consumer;
 import java.util.function.Function;
@@ -41,6 +43,18 @@ public class Main {
 
         Predicate<String> isEmpty = String::isEmpty;
         Predicate<String> isNotEmpty = isEmpty.negate();
+
+        // More Game with Predicates:
+
+        List<String> all = Arrays.asList("t1","t2", "t3", "tttt","wersdf");
+        all.stream().forEach(System.out::println);
+        System.out.println("Do filter...");
+        all.stream().filter((s) -> s.length() > 3).forEach(System.out::println);
+
+        Predicate<String> pre  = (s) -> s.length() > 5;
+        System.out.println("Filter with Predicate...");
+
+        all.stream().filter(pre.negate()).forEach(System.out::println);
 
         // Functions
 //        Functions accept one argument and produce a result.
