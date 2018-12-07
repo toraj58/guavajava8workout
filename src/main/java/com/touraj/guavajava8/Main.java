@@ -63,6 +63,10 @@ public class Main {
         Function<String, Integer> toInteger = Integer::valueOf;
         Function<String, String> backToString = toInteger.andThen(String::valueOf);
 
+        Function<String, String> newFunc = (s) -> s.replace("d","$");
+        String data = newFunc.apply("data");
+        System.out.println(">>>>>>>>>>>>>>>>data ::"+ data);
+
         int i = toInteger.apply("777");
         System.out.println(i);
 
@@ -95,8 +99,6 @@ public class Main {
 
         comparator.compare(p1, p2);             // > 0
         comparator.reversed().compare(p1, p2);  // < 0
-
-
 
     }
 
