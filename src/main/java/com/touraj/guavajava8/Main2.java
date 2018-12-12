@@ -22,4 +22,6 @@ public class Main2 {
         }
         return val;
     }
+
+    // new line 1 in morejava8 branch
 }
