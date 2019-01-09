@@ -1,5 +1,8 @@
 package com.touraj.guavajava8;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class GenericTut {
 
 
@@ -16,7 +19,7 @@ public class GenericTut {
         printArray(intArray);   // pass an Integer array
 
         System.out.println("\nArray doubleArray contains:");
-        printArray(doubleArray);   // pass a Double array
+        GenericTut.<Double>printArray(doubleArray);   // pass a Double array
 
         System.out.println("\nArray characterArray contains:");
         printArray(charArray);   // pass a Character array
@@ -31,6 +34,32 @@ public class GenericTut {
 
         System.out.printf("Max of %s, %s and %s is %s\n","pear",
                 "apple", "orange", maximum("pear", "apple", "orange"));
+
+
+        System.out.println("+++++++++++++++++++++");
+        Box<Integer> integerBox = new Box<Integer>();
+        Box<String> stringBox = new Box<String>();
+
+        integerBox.add(new Integer(10));
+        stringBox.add(new String("Hello World"));
+
+        System.out.printf("Integer Value :%d\n\n", integerBox.get());
+        System.out.printf("String Value :%s\n", stringBox.get());
+
+        System.out.println("******************************");
+
+        List<Integer> ints = new ArrayList<>();
+        ints.add(3); ints.add(5); ints.add(10);
+        double sum = sum(ints);
+        System.out.println("Sum of ints="+sum);
+
+        System.out.println("<><><><><><><><><><><><><><>");
+
+        List<Number> integers = new ArrayList<>();
+        //or
+//        List<Integer> integers = new ArrayList<>();
+        addIntegers(integers);
+
     }
 
 
@@ -54,6 +83,40 @@ public class GenericTut {
             max = z;   // z is the largest now
         }
         return max;   // returns the largest object
+    }
+
+
+    public static double sum(List<? extends Number> list){
+        double sum = 0;
+        for(Number n : list){
+            sum += n.doubleValue();
+        }
+        return sum;
+    }
+
+    public static void addIntegers(List<? super Integer> list){
+        list.add(new Integer(50));
+
+        for (Object o: list
+             ) {
+            System.out.println(o);
+
+        }
+    }
+
+
+    public static class Box<T> {
+        private T t;
+
+        public void add(T t) {
+            this.t = t;
+        }
+
+        public T get() {
+            return t;
+        }
+
+
     }
 
 
