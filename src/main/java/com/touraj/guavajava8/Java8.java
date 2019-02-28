@@ -3,6 +3,7 @@ package com.touraj.guavajava8;
 
 import java.util.*;
 import java.util.function.BiFunction;
+import java.util.function.Function;
 import java.util.function.Predicate;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
@@ -77,28 +78,28 @@ public class Java8 {
         System.out.println("------------------------- BiFunction -------------------------");
 
         BiFunction<String, String, String> biFunction1 = (ss1, ss2) -> ss1 + " :: " + ss2 ;
-        BiFunction<List<Integer>, Predicate<Integer>, List<Integer>> biFunction2 = (l, p) -> {
-            List<Integer> integers = new ArrayList<>();
-            for (Integer integer : l) {
-                if (p.test(integer))
-                {
-                    integers.add(integer);
-                }
-            }
-            return integers;
-        } ;
+        BiFunction<List<Integer>, Predicate<Integer>, List<Integer>> biFunction2 = Java8::getEvenNumbers;
 
         List<Integer> integersList = Arrays.asList(1,2,3,4,5,6,7,8,9,10);
-
         Predicate<Integer> integerPredicate = integer -> integer % 2 == 0;
-
         List<Integer> filteredList = biFunction2.apply(integersList, integerPredicate);
+
+        Function<String, String> function = s -> s + " Ebrahimi";
 
         for (Integer integer : filteredList) {
             System.out.println("List :: " + integer);
         }
+        System.out.println(biFunction1.andThen(function).apply("Hello", "Touraj"));
+    }
 
-        System.out.println(biFunction1.apply("Hello", "Touraj"));
-
+    private static List<Integer> getEvenNumbers(List<Integer> l, Predicate<Integer> p) {
+        List<Integer> integers = new ArrayList<>();
+        for (Integer integer : l) {
+            if (p.test(integer))
+            {
+                integers.add(integer);
+            }
+        }
+        return integers;
     }
 }
