@@ -10,6 +10,7 @@ import java.util.function.Consumer;
 import java.util.function.Function;
 import java.util.function.Predicate;
 import java.util.function.Supplier;
+import java.util.stream.Stream;
 
 public class Main {
 
@@ -30,6 +31,17 @@ public class Main {
 //        The interface contains various default methods for composing predicates
 //        to complex logical terms (and, or, negate)
 
+        List<String> stringList = Arrays.asList("t", "a", "b", "a");
+        List<Double> doubleList = Arrays.asList(1.2, 2.3333, 4.5, 7.0, 0.0, 0.0);
+
+        long a = stringList.stream().filter(s -> s.equals("a")).count();
+        long b = doubleList.stream().filter(d -> d > 4).count();
+
+        Stream<String> z = stringList.stream().filter(s -> s.equals("t"));
+        z.forEach(System.out::println);
+        System.out.println("Res >> :: " + a);
+        System.out.println("Res b>> :: " + b);
+
 
         Predicate<String> predicate = (s) -> s.length() > 0;
 
@@ -46,12 +58,12 @@ public class Main {
 
         // More Game with Predicates:
 
-        List<String> all = Arrays.asList("t1","t2", "t3", "tttt","wersdf");
+        List<String> all = Arrays.asList("t1", "t2", "t3", "tttt", "wersdf");
         all.stream().forEach(System.out::println);
         System.out.println("Do filter...");
         all.stream().filter((s) -> s.length() > 3).forEach(System.out::println);
 
-        Predicate<String> pre  = (s) -> s.length() > 5;
+        Predicate<String> pre = (s) -> s.length() > 5;
         System.out.println("Filter with Predicate...");
 
         all.stream().filter(pre.negate()).forEach(System.out::println);
@@ -63,9 +75,9 @@ public class Main {
         Function<String, Integer> toInteger = Integer::valueOf;
         Function<String, String> backToString = toInteger.andThen(String::valueOf);
 
-        Function<String, String> newFunc = (s) -> s.replace("d","$");
+        Function<String, String> newFunc = (s) -> s.replace("d", "$");
         String data = newFunc.apply("data");
-        System.out.println(">>>>>>>>>>>>>>>>data ::"+ data);
+        System.out.println(">>>>>>>>>>>>>>>>data ::" + data);
 
         int i = toInteger.apply("777");
         System.out.println(i);
@@ -84,7 +96,7 @@ public class Main {
 
 //        Consumers represents operations to be performed on a single input argument.
 
-                Consumer<Person> greeter = (p) -> System.out.println("Hello, " + p.getName());
+        Consumer<Person> greeter = (p) -> System.out.println("Hello, " + p.getName());
         greeter.accept(new Person("Luke", "Skywalker"));
 
 
