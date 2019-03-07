@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6d2903ef-1a20-435f-8ea6-d82742559334" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/touraj/guavajava8/model/Car.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/touraj/guavajava8/Java8.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/touraj/guavajava8/Java8.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/touraj/guavajava8/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/touraj/guavajava8/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/touraj/guavajava8/model/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/touraj/guavajava8/model/Person.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -16,22 +19,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/touraj/guavajava8/thready/CallableTask.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="18" column="33" selection-start-line="18" selection-start-column="33" selection-end-line="18" selection-end-column="33" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/touraj/guavajava8/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="43" selection-start-line="43" selection-end-line="43" />
+            <state relative-caret-position="336">
+              <caret line="102" lean-forward="true" selection-start-line="102" selection-end-line="102" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -42,10 +33,47 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/touraj/guavajava8/Java8.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="196">
-              <caret line="79" column="105" lean-forward="true" selection-start-line="79" selection-start-column="105" selection-end-line="79" selection-end-column="105" />
+            <state relative-caret-position="462">
+              <caret line="107" column="91" selection-start-line="107" selection-start-column="91" selection-end-line="107" selection-end-column="91" />
               <folding>
                 <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/touraj/guavajava8/model/Car.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+              <folding>
+                <element signature="e#287#288#0" expanded="true" />
+                <element signature="e#314#315#0" expanded="true" />
+                <element signature="e#354#355#0" expanded="true" />
+                <element signature="e#386#387#0" expanded="true" />
+                <element signature="e#418#419#0" expanded="true" />
+                <element signature="e#446#447#0" expanded="true" />
+                <element signature="e#488#489#0" expanded="true" />
+                <element signature="e#522#523#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/touraj/guavajava8/model/Person.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="15" column="25" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
+              <folding>
+                <element signature="e#302#303#0" expanded="true" />
+                <element signature="e#337#338#0" expanded="true" />
+                <element signature="e#367#368#0" expanded="true" />
+                <element signature="e#258#259#0" expanded="true" />
+                <element signature="e#285#286#0" expanded="true" />
+                <element signature="e#325#326#0" expanded="true" />
+                <element signature="e#357#358#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -54,20 +82,11 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/touraj/guavajava8/Main2.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
+            <state relative-caret-position="-442">
               <caret line="11" column="20" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/java/util/concurrent/FutureTask.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="493">
-              <caret line="62" column="52" selection-start-line="62" selection-start-column="38" selection-end-line="62" selection-end-column="52" />
             </state>
           </provider>
         </entry>
@@ -111,7 +130,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/touraj/guavajava8/thready/MyCallable.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
+            <state relative-caret-position="170">
               <caret line="10" column="36" selection-start-line="10" selection-start-column="36" selection-end-line="10" selection-end-column="36" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -129,6 +148,11 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>split</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -138,7 +162,6 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/src/main/java/com/touraj/guavajava8/Temp.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/touraj/guavajava8/model/Person.java" />
         <option value="$PROJECT_DIR$/.idea/workspace.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/touraj/guavajava8/GenericTut.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/touraj/guavajava8/thready/SimpleFuture.java" />
@@ -148,6 +171,8 @@
         <option value="$PROJECT_DIR$/src/main/java/com/touraj/guavajava8/thready/ComFuture.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/touraj/guavajava8/thready/CallableTask.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/touraj/guavajava8/Main2.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/touraj/guavajava8/model/Car.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/touraj/guavajava8/model/Person.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/touraj/guavajava8/Main.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/touraj/guavajava8/Java8.java" />
       </list>
@@ -188,6 +213,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -221,18 +248,25 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="guavajava8" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="guavajava8workout" type="b2602c69:ProjectViewProjectNode" />
+              <item name="guavajava8workout" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="guavajava8" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551363384211" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551973680077" />
     <property name="extract.method.default.visibility" value="private" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../testihs" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -379,18 +413,22 @@
       <workItem from="1550219539739" duration="599000" />
       <workItem from="1550478975395" duration="598000" />
       <workItem from="1550651401707" duration="1356000" />
-      <workItem from="1551362110121" duration="1102000" />
+      <workItem from="1551362110121" duration="2364000" />
+      <workItem from="1551429651710" duration="855000" />
+      <workItem from="1551689683370" duration="1206000" />
+      <workItem from="1551865221434" duration="40000" />
+      <workItem from="1551955986279" duration="3463000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="47337000" />
+    <option name="totallyTimeSpent" value="54163000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2196162" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22814499" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -399,12 +437,12 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.30846325" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.31737193" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3997773" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.27728286" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.26837417" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.32962137" />
@@ -493,18 +531,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/touraj/guavajava8/model/Person.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="19" column="38" selection-start-line="19" selection-start-column="38" selection-end-line="19" selection-end-column="38" />
-          <folding>
-            <element signature="e#258#259#0" expanded="true" />
-            <element signature="e#285#286#0" expanded="true" />
-            <element signature="e#357#358#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="10999">
@@ -574,7 +600,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/touraj/guavajava8/thready/CallableTask.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
+        <state relative-caret-position="272">
           <caret line="18" column="33" selection-start-line="18" selection-start-column="33" selection-end-line="18" selection-end-column="33" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -619,7 +645,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/touraj/guavajava8/thready/MyCallable.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
+        <state relative-caret-position="170">
           <caret line="10" column="36" selection-start-line="10" selection-start-column="36" selection-end-line="10" selection-end-column="36" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -629,7 +655,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/touraj/guavajava8/Main2.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
+        <state relative-caret-position="-442">
           <caret line="11" column="20" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -637,10 +663,43 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/touraj/guavajava8/model/Car.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding>
+            <element signature="e#287#288#0" expanded="true" />
+            <element signature="e#314#315#0" expanded="true" />
+            <element signature="e#354#355#0" expanded="true" />
+            <element signature="e#386#387#0" expanded="true" />
+            <element signature="e#418#419#0" expanded="true" />
+            <element signature="e#446#447#0" expanded="true" />
+            <element signature="e#488#489#0" expanded="true" />
+            <element signature="e#522#523#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/touraj/guavajava8/model/Person.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="25" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
+          <folding>
+            <element signature="e#302#303#0" expanded="true" />
+            <element signature="e#337#338#0" expanded="true" />
+            <element signature="e#367#368#0" expanded="true" />
+            <element signature="e#258#259#0" expanded="true" />
+            <element signature="e#285#286#0" expanded="true" />
+            <element signature="e#325#326#0" expanded="true" />
+            <element signature="e#357#358#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/touraj/guavajava8/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="43" selection-start-line="43" selection-end-line="43" />
+        <state relative-caret-position="336">
+          <caret line="102" lean-forward="true" selection-start-line="102" selection-end-line="102" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -649,8 +708,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/touraj/guavajava8/Java8.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="79" column="105" lean-forward="true" selection-start-line="79" selection-start-column="105" selection-end-line="79" selection-end-column="105" />
+        <state relative-caret-position="462">
+          <caret line="107" column="91" selection-start-line="107" selection-start-column="91" selection-end-line="107" selection-end-column="91" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

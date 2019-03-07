@@ -1,6 +1,9 @@
 package com.touraj.guavajava8;
 
 
+import com.touraj.guavajava8.model.Car;
+import com.touraj.guavajava8.model.Person;
+
 import java.util.*;
 import java.util.function.BiFunction;
 import java.util.function.Function;
@@ -90,6 +93,23 @@ public class Java8 {
             System.out.println("List :: " + integer);
         }
         System.out.println(biFunction1.andThen(function).apply("Hello", "Touraj"));
+
+
+        System.out.println("------------------ Flat Map ------------------");
+
+        List<Person> personList = Arrays.asList(new Person("touraj", "ebrahimi", new Car("toyota", "2000")), new Person("david", "chang", new Car("hundai", "2002")), new Person("peter", "parker", new Car("BMW", "2012")));
+
+        List<List<Person>> dList = new ArrayList<>();
+
+        dList.add(personList);
+
+        personList.stream().filter(p -> !p.getName().equals("touraj")).forEach(System.out::println);
+        System.out.println("Print Cars");
+        personList.stream().flatMap(p -> Stream.of(p.getCar())).forEach(System.out::println);
+        System.out.println("Flatten List ...");
+        dList.stream().flatMap(l -> l.stream()).forEach(System.out::println);
+
+
     }
 
     private static List<Integer> getEvenNumbers(List<Integer> l, Predicate<Integer> p) {

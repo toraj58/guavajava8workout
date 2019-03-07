@@ -1,5 +1,6 @@
 package com.touraj.guavajava8;
 
+import com.touraj.guavajava8.model.Car;
 import com.touraj.guavajava8.model.Person;
 
 import java.util.Arrays;
@@ -97,7 +98,7 @@ public class Main {
 //        Consumers represents operations to be performed on a single input argument.
 
         Consumer<Person> greeter = (p) -> System.out.println("Hello, " + p.getName());
-        greeter.accept(new Person("Luke", "Skywalker"));
+        greeter.accept(new Person("Luke", "Skywalker", new Car("toyota", "2000")));
 
 
 //        Comparators#
@@ -106,8 +107,8 @@ public class Main {
 
         Comparator<Person> comparator = (p1, p2) -> p1.getName().compareTo(p2.getName());
 
-        Person p1 = new Person("John", "Doe");
-        Person p2 = new Person("Alice", "Wonderland");
+        Person p1 = new Person("John", "Doe", new Car("toyota", "2000"));
+        Person p2 = new Person("Alice", "Wonderland", new Car("toyota", "2000"));
 
         comparator.compare(p1, p2);             // > 0
         comparator.reversed().compare(p1, p2);  // < 0
