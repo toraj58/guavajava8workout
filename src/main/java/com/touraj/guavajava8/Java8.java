@@ -10,6 +10,7 @@ import java.util.function.Function;
 import java.util.function.Predicate;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
+import java.util.stream.StreamSupport;
 
 public class Java8 {
 
@@ -109,6 +110,17 @@ public class Java8 {
         System.out.println("Flatten List ...");
         dList.stream().flatMap(l -> l.stream()).forEach(System.out::println);
 
+        System.out.println("------------- Stream Support -------------");
+
+        Set<String> set = new TreeSet<>(Arrays.asList("C", "A", "B"));
+        Stream<String> streamSup = StreamSupport.stream(set.spliterator(), false);
+        streamSup.filter(s -> !s.equals("B")).forEach(System.out::println);
+
+        System.out.println("---- Another Example of Stream Support ----");
+
+        List<String> stringList = Arrays.asList("two", "one", "three");
+        Stream<String> stream2 = StreamSupport.stream(() ->stringList.spliterator(), Spliterator.ORDERED, false);
+        stream2.forEach(System.out::println);
 
     }
 
