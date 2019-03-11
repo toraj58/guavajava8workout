@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="6d2903ef-1a20-435f-8ea6-d82742559334" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/touraj/guavajava8/Java8.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/touraj/guavajava8/Java8.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/touraj/guavajava8/thready/ComFuture.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/touraj/guavajava8/thready/ComFuture.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -18,7 +18,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/touraj/guavajava8/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="336">
+            <state relative-caret-position="1011">
               <caret line="102" lean-forward="true" selection-start-line="102" selection-end-line="102" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -27,11 +27,32 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/touraj/guavajava8/thready/SimpleFuture2.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="442">
+              <caret line="26" column="57" lean-forward="true" selection-start-line="26" selection-start-column="57" selection-end-line="26" selection-end-column="57" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/touraj/guavajava8/thready/ComFuture.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/touraj/guavajava8/Java8.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="124" column="5" lean-forward="true" selection-start-line="124" selection-start-column="5" selection-end-line="124" selection-end-column="5" />
+            <state relative-caret-position="-14">
+              <caret line="79" column="49" lean-forward="true" selection-start-line="79" selection-start-column="49" selection-end-line="79" selection-end-column="49" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -79,29 +100,11 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/touraj/guavajava8/Main2.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-442">
+            <state relative-caret-position="187">
               <caret line="11" column="20" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/java/util/concurrent/RunnableFuture.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="47" column="17" selection-start-line="47" selection-start-column="17" selection-end-line="47" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/java/util/concurrent/Future.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1054">
-              <caret line="95" column="17" selection-start-line="95" selection-start-column="17" selection-end-line="95" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -127,8 +130,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/touraj/guavajava8/thready/MyCallable.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="36" selection-start-line="10" selection-start-column="36" selection-end-line="10" selection-end-column="36" />
+            <state relative-caret-position="85">
+              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -148,6 +151,8 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>split</find>
+      <find>future</find>
+      <find>CompletableFuture</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -165,13 +170,13 @@
         <option value="$PROJECT_DIR$/src/main/java/com/touraj/guavajava8/thready/MyCallable.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/touraj/guavajava8/thready/SimpleFuture2.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/touraj/guavajava8/thready/ExecutorExample.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/touraj/guavajava8/thready/ComFuture.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/touraj/guavajava8/thready/CallableTask.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/touraj/guavajava8/Main2.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/touraj/guavajava8/model/Car.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/touraj/guavajava8/model/Person.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/touraj/guavajava8/Main.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/touraj/guavajava8/Java8.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/touraj/guavajava8/thready/ComFuture.java" />
       </list>
     </option>
   </component>
@@ -263,7 +268,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552040898639" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552312132968" />
     <property name="extract.method.default.visibility" value="private" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../testihs" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -290,22 +295,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Java8">
+  <component name="RunManager" selected="Application.ComFuture">
     <configuration name="ComFuture" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.touraj.guavajava8.thready.ComFuture" />
-      <module name="guavajava8workout" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.touraj.guavajava8.thready.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ExecutorExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.touraj.guavajava8.thready.ExecutorExample" />
       <module name="guavajava8workout" />
       <extension name="coverage">
         <pattern>
@@ -356,13 +348,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SimpleFuture2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.touraj.guavajava8.thready.SimpleFuture2" />
+      <module name="guavajava8workout" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.touraj.guavajava8.thready.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ComFuture" />
+        <item itemvalue="Application.SimpleFuture2" />
         <item itemvalue="Application.Java8" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.Main2" />
-        <item itemvalue="Application.ComFuture" />
-        <item itemvalue="Application.ExecutorExample" />
       </list>
     </recent_temporary>
   </component>
@@ -414,16 +419,15 @@
       <workItem from="1551429651710" duration="855000" />
       <workItem from="1551689683370" duration="1206000" />
       <workItem from="1551865221434" duration="40000" />
-      <workItem from="1551955986279" duration="4955000" />
+      <workItem from="1551955986279" duration="8255000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="55655000" />
+    <option name="totallyTimeSpent" value="58955000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22814499" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -434,12 +438,12 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.4131403" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.38195992" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3997773" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32182628" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.2026726" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.32962137" />
@@ -568,27 +572,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/touraj/guavajava8/thready/SimpleFuture2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" selection-start-line="22" selection-end-line="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/touraj/guavajava8/thready/ExecutorExample.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
           <caret line="21" selection-start-line="21" selection-end-line="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/touraj/guavajava8/thready/ComFuture.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -640,26 +627,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/touraj/guavajava8/thready/MyCallable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="36" selection-start-line="10" selection-start-column="36" selection-end-line="10" selection-end-column="36" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/touraj/guavajava8/Main2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-442">
-          <caret line="11" column="20" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/touraj/guavajava8/model/Car.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
@@ -693,9 +660,29 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/touraj/guavajava8/Java8.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-14">
+          <caret line="79" column="49" lean-forward="true" selection-start-line="79" selection-start-column="49" selection-end-line="79" selection-end-column="49" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/touraj/guavajava8/Main2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="20" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/touraj/guavajava8/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
+        <state relative-caret-position="1011">
           <caret line="102" lean-forward="true" selection-start-line="102" selection-end-line="102" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -703,10 +690,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/touraj/guavajava8/Java8.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/touraj/guavajava8/thready/MyCallable.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="124" column="5" lean-forward="true" selection-start-line="124" selection-start-column="5" selection-end-line="124" selection-end-column="5" />
+        <state relative-caret-position="85">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/touraj/guavajava8/thready/SimpleFuture2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="26" column="57" lean-forward="true" selection-start-line="26" selection-start-column="57" selection-end-line="26" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/touraj/guavajava8/thready/ComFuture.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
